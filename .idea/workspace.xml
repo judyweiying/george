@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f86173c-bc38-4234-bf30-753617ec1823" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/include/kernels.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/kernels.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/george/kernels.py" beforeDir="false" afterPath="$PROJECT_DIR$/george/kernels.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/kernels.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="400" column="34" lean-forward="true" selection-start-line="400" selection-start-column="34" selection-end-line="400" selection-end-column="34" />
+            <state relative-caret-position="-52">
+              <caret line="400" column="35" lean-forward="true" selection-start-line="400" selection-start-column="35" selection-end-line="400" selection-end-column="35" />
               <folding>
                 <element signature="e#0#17380#0" />
                 <element signature="e#0#17380#0" />
@@ -39,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/george/kernels.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="543" lean-forward="true" selection-start-line="543" selection-end-line="543" />
+            <state relative-caret-position="561">
+              <caret line="520" column="49" selection-start-line="520" selection-start-column="49" selection-end-line="520" selection-end-column="49" />
               <folding>
                 <element signature="e#5286#5634#0" />
                 <element signature="e#5668#6046#0" />
@@ -58,7 +58,6 @@
                 <element signature="e#10836#11898#0" />
                 <element signature="e#11950#12556#0" />
                 <element signature="e#12598#12949#0" />
-                <element signature="e#12981#13955#0" />
               </folding>
             </state>
           </provider>
@@ -69,8 +68,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>cosine</find>
-      <find>get_sq</find>
       <find>Task</find>
+      <find>get_sq</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -79,8 +78,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/george/kernels.py" />
         <option value="$PROJECT_DIR$/include/kernels.h" />
+        <option value="$PROJECT_DIR$/george/kernels.py" />
       </list>
     </option>
   </component>
@@ -178,10 +177,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/include/kernels.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="400" column="35" lean-forward="true" selection-start-line="400" selection-start-column="35" selection-end-line="400" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#17380#0" />
+            <element signature="e#0#17380#0" />
+            <element signature="e#0#17380#0" />
+            <element signature="e#0#17380#0" />
+            <element signature="e#0#17380#0" />
+            <element signature="e#0#17380#0" />
+            <element signature="e#0#17380#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/george/kernels.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="543" lean-forward="true" selection-start-line="543" selection-end-line="543" />
+        <state relative-caret-position="561">
+          <caret line="520" column="49" selection-start-line="520" selection-start-column="49" selection-end-line="520" selection-end-column="49" />
           <folding>
             <element signature="e#5286#5634#0" />
             <element signature="e#5668#6046#0" />
@@ -196,23 +211,6 @@
             <element signature="e#10836#11898#0" />
             <element signature="e#11950#12556#0" />
             <element signature="e#12598#12949#0" />
-            <element signature="e#12981#13955#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/kernels.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="400" column="34" lean-forward="true" selection-start-line="400" selection-start-column="34" selection-end-line="400" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#17380#0" />
-            <element signature="e#0#17380#0" />
-            <element signature="e#0#17380#0" />
-            <element signature="e#0#17380#0" />
-            <element signature="e#0#17380#0" />
-            <element signature="e#0#17380#0" />
-            <element signature="e#0#17380#0" />
           </folding>
         </state>
       </provider>
