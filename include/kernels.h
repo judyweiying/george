@@ -396,7 +396,7 @@ public:
 
 		for (int i = 0; i < vector_.size(); ++i){
 			L(row,col) = vector_[i];
-			if row != col:
+			if (row != col):
 			    L(col,row) = vector_[i];
 			++row;
 
