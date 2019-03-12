@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5f86173c-bc38-4234-bf30-753617ec1823" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/george/kernels.py" beforeDir="false" afterPath="$PROJECT_DIR$/george/kernels.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/kernels.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/kernels.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/george/kernels.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="568" column="19" selection-start-line="568" selection-start-column="19" selection-end-line="568" selection-end-column="19" />
+            <state relative-caret-position="290">
+              <caret line="558" lean-forward="true" selection-start-line="558" selection-end-line="558" />
               <folding>
                 <element signature="e#5286#5634#0" />
                 <element signature="e#5668#6046#0" />
@@ -199,8 +198,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/george/kernels.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="568" column="19" selection-start-line="568" selection-start-column="19" selection-end-line="568" selection-end-column="19" />
+        <state relative-caret-position="290">
+          <caret line="558" lean-forward="true" selection-start-line="558" selection-end-line="558" />
           <folding>
             <element signature="e#5286#5634#0" />
             <element signature="e#5668#6046#0" />

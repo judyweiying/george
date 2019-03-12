@@ -552,7 +552,7 @@ class TaskKernel2(Kernel):
     kernel_type = 12
 
     def __init__(self, matrix_v, ndim, dim, num_tasks):
-        super(TaskKernel, self).__init__(matrix_v, ndim=ndim)
+        super(TaskKernel2, self).__init__(matrix_v, ndim=ndim)
         assert dim < self.ndim, "Invalid dimension"
         self.dim = dim
         self.num_tasks = num_tasks
@@ -574,7 +574,7 @@ class NearestNeighbourKernel(Kernel):
     kernel_type = 14
 
     def __init__(self, radius, ndim=1, dim=0):
-        super(CosineKernel, self).__init__(radius, ndim=ndim)
+        super(NearestNeighbourKernel, self).__init__(radius, ndim=ndim)
         assert dim < self.ndim, "Invalid dimension"
         self.dim = dim
 
