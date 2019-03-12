@@ -429,7 +429,7 @@ private:
 
 class NearestNeighbourKernel : public Kernel {
 public:
-    CosineKernel (const unsigned int ndim, const unsigned int dim)
+    NearestNeighbourKernel (const unsigned int ndim, const unsigned int dim)
         : Kernel(ndim), dim_(dim) {};
 
     double value (const double* x1, const double* x2) const {
