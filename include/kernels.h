@@ -379,6 +379,80 @@ private:
     Eigen::MatrixXd cov_;
 };
 
+// discrete kernels
+class TaskKernel2 : public Kernel{
+public:
+    TaskKernel2( const unsigned int ndim, const unsigned int dim, const unsigned int num_tasks): Kernel(ndim), dim_(dim), num_tasks_(num_tasks), vector_((num_tasks*(num_tasks+1))/2, 0), cov_(num_tasks, num_tasks) {};
+
+    double value (const double* x1, const double *x2) const{
+
+        return(cov_(int(x1[dim_]), int(x2[dim_])));
+    };
+
+	void update_cov_(){
+		Eigen::MatrixXd L =  Eigen::MatrixXd::Zero(num_tasks_, num_tasks_);
+
+		int row=0, col=0;
+
+		for (int i = 0; i < vector_.size(); ++i){
+			L(row,col) = vector_[i];
+			if row != col:
+			    L(col,row) = vector_[i];
+			++row;
+
+			if (row == num_tasks_){
+				++col;
+				row = col;
+			}
+		}
+		cov_ = L;
+	}
+
+   // Parameter vector spec.
+    unsigned int size () const { return vector_.size(); };
+    void set_parameter (const unsigned int i, const double value) {
+        vector_[i] = value;
+		update_cov_();
+    };
+    double get_parameter (const unsigned int i) const {
+        return vector_[i];
+    };
+
+
+private:
+    unsigned int dim_;
+    unsigned int num_tasks_;
+    vector<double> vector_;
+    Eigen::MatrixXd cov_;
+};
+
+
+class NearestNeighbourKernel : public Kernel {
+public:
+    CosineKernel (const unsigned int ndim, const unsigned int dim)
+        : Kernel(ndim), dim_(dim) {};
+
+    double value (const double* x1, const double* x2) const {
+        double d;
+        d = x1[dim_] - x2[dim_];
+        r2 = d*d;
+
+        return 1 - r2 / radius;
+    };
+
+    unsigned int size () const { return 1; }
+    void set_parameter (const unsigned int i, const double value) {
+        radius = value;
+    };
+    double get_parameter (const unsigned int i) const { return radius; };
+
+private:
+    unsigned int dim_;
+    double radius;
+};
+
+
+
 //
 // RADIAL KERNELS
 //

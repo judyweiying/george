@@ -532,6 +532,52 @@ class TaskKernel(Kernel):
     def vector(self, v):
         self.pars = v
 
+class TaskKernel2(Kernel):
+    r"""
+    A kernel for discrete variables, labeled tasks. The Kernel's parameters
+    correspond to the kernel values. Note that only the offdiagonal elements
+    are stored internally. Check the source code to see how the vector elements
+    map to the Kernel's Gram Matrix elements.
+
+    :param ndim:
+        Number of input dimensions.
+
+    :param dim:
+        The dimension along which this kernel should apply.
+
+    :param num_tasks:
+        Number of tasks (represented by 0, 1, ... num_tasks-1)
+
+    """
+    kernel_type = 12
+
+    def __init__(self, matrix_v, ndim, dim, num_tasks):
+        super(TaskKernel, self).__init__(matrix_v, ndim=ndim)
+        assert dim < self.ndim, "Invalid dimension"
+        self.dim = dim
+        self.num_tasks = num_tasks
+
+    # overload the vector to make them live on the linear scale
+    @property
+    def vector(self):
+        return self.pars
+
+    @vector.setter
+    def vector(self, v):
+        self.pars = v
+
+class NearestNeighbourKernel(Kernel):
+    r"""
+
+
+    """
+    kernel_type = 14
+
+    def __init__(self, radius, ndim=1, dim=0):
+        super(CosineKernel, self).__init__(radius, ndim=ndim)
+        assert dim < self.ndim, "Invalid dimension"
+        self.dim = dim
+
 class HeteroscedasticNoisePolynomialKernel(Kernel):
     r"""
     A kernel to model heteroscedastic noise depending on one dimension.
@@ -551,7 +597,7 @@ class HeteroscedasticNoisePolynomialKernel(Kernel):
         The dimension along which this kernel should apply.
 
     """
-    kernel_type = 12
+    kernel_type = 15
 
     def __init__(self, ndim, dim):
         super(HeteroscedasticNoisePolynomialKernel, self).__init__(*([1]*(2)), ndim=ndim)
