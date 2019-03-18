@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/kernels.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="427" column="28" lean-forward="true" selection-start-line="427" selection-start-column="6" selection-end-line="427" selection-end-column="28" />
+            <state relative-caret-position="421">
+              <caret line="395" lean-forward="true" selection-start-line="395" selection-end-line="395" />
               <folding>
                 <element signature="e#0#17380#0" />
                 <element signature="e#0#17380#0" />
@@ -64,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/george/kernels.pxd">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="274" column="66" lean-forward="true" selection-start-line="274" selection-start-column="66" selection-end-line="274" selection-end-column="66" />
+            <state relative-caret-position="390">
+              <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
             </state>
           </provider>
         </entry>
@@ -78,6 +78,7 @@
       <find>get_sq</find>
       <find>constant</find>
       <find>Task</find>
+      <find>TaskKernel</find>
       <find>TaskKe</find>
     </findStrings>
   </component>
@@ -180,11 +181,9 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/include/metrics.h">
+    <entry file="file://$PROJECT_DIR$/george/hodlr.pyx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
-        </state>
+        <state relative-caret-position="-4343" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/george/kernels.py">
@@ -207,10 +206,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/include/metrics.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/kernels.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="427" column="28" lean-forward="true" selection-start-line="427" selection-start-column="6" selection-end-line="427" selection-end-column="28" />
+        <state relative-caret-position="421">
+          <caret line="395" lean-forward="true" selection-start-line="395" selection-end-line="395" />
           <folding>
             <element signature="e#0#17380#0" />
             <element signature="e#0#17380#0" />
@@ -225,8 +231,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/george/kernels.pxd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="274" column="66" lean-forward="true" selection-start-line="274" selection-start-column="66" selection-end-line="274" selection-end-column="66" />
+        <state relative-caret-position="390">
+          <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
         </state>
       </provider>
     </entry>

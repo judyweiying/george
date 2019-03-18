@@ -78,11 +78,7 @@ cdef extern from "kernels.h" namespace "george::kernels":
     cdef cppclass TaskKernel(Kernel):
         TaskKernel( const unsigned int ndim, const unsigned int dim, const unsigned int num_tasks)
 
-    cdef cppclass TaskKernel2(Kernel):
-        TaskKernel2( const unsigned int ndim, const unsigned int dim, const unsigned int num_tasks)
 
-    cdef cppclass NearestNeighbourKernel(Kernel):
-        NearestNeighbourKernel( const unsigned int ndim, const unsigned int dim)
 
 
     # Radial kernels.
@@ -268,11 +264,6 @@ cdef inline Kernel* parse_kernel(kernel_spec) except *:
     elif kernel_spec.kernel_type == 11:
         kernel = new TaskKernel(ndim, kernel_spec.dim, kernel_spec.num_tasks)
 
-    elif kernel_spec.kernel_type == 12:
-        kernel = new TaskKernel2(ndim, kernel_spec.dim, kernel_spec.num_tasks)
-
-    elif kernel_spec.kernel_type == 14:
-        kernel = new NearestNeighbourKernel(ndim, kernel_spec.dim)
 
     elif kernel_spec.kernel_type == 15:
         kernel = new HeteroscedasticNoisePolynomialKernel(ndim, kernel_spec.dim)
