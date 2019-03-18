@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f86173c-bc38-4234-bf30-753617ec1823" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/george/kernels.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/george/kernels.pxd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/kernels.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/kernels.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/kernels.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="385" lean-forward="true" selection-start-line="385" selection-end-line="385" />
+            <state relative-caret-position="421">
+              <caret line="341" column="60" lean-forward="true" selection-start-line="341" selection-start-column="60" selection-end-line="341" selection-end-column="60" />
               <folding>
                 <element signature="e#0#17380#0" />
                 <element signature="e#0#17380#0" />
@@ -239,8 +238,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/kernels.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="385" lean-forward="true" selection-start-line="385" selection-end-line="385" />
+        <state relative-caret-position="421">
+          <caret line="341" column="60" lean-forward="true" selection-start-line="341" selection-start-column="60" selection-end-line="341" selection-end-column="60" />
           <folding>
             <element signature="e#0#17380#0" />
             <element signature="e#0#17380#0" />

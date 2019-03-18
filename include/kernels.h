@@ -382,7 +382,7 @@ private:
 // discrete kernels
 class TaskKernel2 : public Kernel{
 public:
-    TaskKernel2( const unsigned int ndim, const unsigned int dim, const unsigned int num_tasks): Kernel(ndim), dim_(dim), num_tasks_(num_tasks), vector_((num_tasks*num_tasks, 0), cov_(num_tasks, num_tasks) {};
+    TaskKernel2( const unsigned int ndim, const unsigned int dim, const unsigned int num_tasks): Kernel(ndim), dim_(dim), num_tasks_(num_tasks), vector_(num_tasks*num_tasks, 0), cov_(num_tasks, num_tasks) {};
 
     double value (const double* x1, const double *x2) const{
 
