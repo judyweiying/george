@@ -225,6 +225,25 @@ class ConstantKernel(Kernel):
     def __init__(self, value, ndim=1):
         super(ConstantKernel, self).__init__(value, ndim=ndim)
 
+class ConstantWoGKernel(Kernel):
+    r"""
+    This kernel returns the constant
+
+    .. math::
+
+        k(\mathbf{x}_i,\,\mathbf{x}_j) = c
+
+    where :math:`c` is a parameter.
+
+    :param value:
+        The constant value :math:`c` in the above equation.
+
+    """
+    kernel_type = 16
+
+    def __init__(self, value, ndim=1):
+        super(ConstantWoGKernel, self).__init__(value, ndim=ndim)
+
 
 class WhiteKernel(Kernel):
     r"""

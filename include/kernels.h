@@ -194,6 +194,27 @@ private:
     double value_;
 };
 
+class ConstantWoGKernel : public Kernel {
+public:
+    ConstantWoGKernel (const unsigned int ndim) : Kernel(ndim) {};
+    ConstantWoGKernel (const unsigned int ndim, const double value)
+        : Kernel(ndim), value_(value) {};
+
+    double value (const double* x1, const double* x2) const {
+        return value_;
+    };
+    unsigned int size () const { return 1; }
+    void set_parameter (const unsigned int i, const double value) {
+        value_ = value;
+    };
+    double get_parameter (const unsigned int i) const { return value_; };
+
+private:
+    double value_;
+};
+
+
+
 class WhiteKernel : public Kernel {
 public:
     WhiteKernel (const unsigned int ndim) : Kernel(ndim) {};

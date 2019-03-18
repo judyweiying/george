@@ -57,6 +57,9 @@ cdef extern from "kernels.h" namespace "george::kernels":
     cdef cppclass ConstantKernel(Kernel):
         ConstantKernel(const unsigned int ndim)
 
+    cdef cppclass ConstantWoGKernel(Kernel):
+        ConstantWoGKernel(const unsigned int ndim)
+
     cdef cppclass WhiteKernel(Kernel):
         WhiteKernel(const unsigned int ndim)
 
@@ -183,6 +186,9 @@ cdef inline Kernel* parse_kernel(kernel_spec) except *:
 
     elif kernel_spec.kernel_type == 0:
         kernel = new ConstantKernel(ndim)
+
+    elif kernel_spec.kernel_type == 16:
+        kernel = new ConstantWoGKernel(ndim)
 
     elif kernel_spec.kernel_type == 1:
         kernel = new WhiteKernel(ndim)
