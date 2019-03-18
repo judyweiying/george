@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f86173c-bc38-4234-bf30-753617ec1823" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/george/kernels.py" beforeDir="false" afterPath="$PROJECT_DIR$/george/kernels.py" afterDir="false" />
-    </list>
+    <list default="true" id="5f86173c-bc38-4234-bf30-753617ec1823" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/george/kernels.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
-              <caret line="520" column="49" selection-start-line="520" selection-start-column="49" selection-end-line="520" selection-end-column="49" />
+              <caret line="520" column="61" lean-forward="true" selection-start-line="520" selection-start-column="61" selection-end-line="520" selection-end-column="61" />
               <folding>
                 <element signature="e#5286#5634#0" />
                 <element signature="e#5668#6046#0" />
@@ -147,7 +145,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-52" width="1936" height="1096" extended-state="6" />
+    <frame x="-1928" y="-52" width="1936" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -196,7 +194,7 @@
     <entry file="file://$PROJECT_DIR$/george/kernels.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
-          <caret line="520" column="49" selection-start-line="520" selection-start-column="49" selection-end-line="520" selection-end-column="49" />
+          <caret line="520" column="61" lean-forward="true" selection-start-line="520" selection-start-column="61" selection-end-line="520" selection-end-column="61" />
           <folding>
             <element signature="e#5286#5634#0" />
             <element signature="e#5668#6046#0" />
