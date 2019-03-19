@@ -452,7 +452,7 @@ public:
         : Kernel(ndim), dim_(dim) {};
 
     double value (const double* x1, const double* x2) const {
-        double d, r2=0.0;
+        double d, r2;
         d = x1[dim_] - x2[dim_];
         r2 = d*d;
 
