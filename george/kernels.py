@@ -597,6 +597,14 @@ class NearestNeighbourKernel(Kernel):
         assert dim < self.ndim, "Invalid dimension"
         self.dim = dim
 
+    @property
+    def vector(self):
+        return self.pars
+
+    @vector.setter
+    def vector(self, v):
+        self.pars = v
+
 class HeteroscedasticNoisePolynomialKernel(Kernel):
     r"""
     A kernel to model heteroscedastic noise depending on one dimension.
