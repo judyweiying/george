@@ -456,7 +456,7 @@ public:
         d = x1[dim_] - x2[dim_];
         r2 = d*d;
 
-        return 0.25 * (1 - r2 / radius);
+        return 0.25 - r2 / radius;
     };
 
     unsigned int size () const { return 1; }
