@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f86173c-bc38-4234-bf30-753617ec1823" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/george/kernels.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/george/kernels.pxd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/george/kernels.py" beforeDir="false" afterPath="$PROJECT_DIR$/george/kernels.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/kernels.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/kernels.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/kernels.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="176" column="18" selection-start-line="176" selection-start-column="4" selection-end-line="176" selection-end-column="18" />
+            <state relative-caret-position="601">
+              <caret line="458" column="39" selection-start-line="458" selection-start-column="39" selection-end-line="458" selection-end-column="39" />
               <folding>
                 <element signature="e#0#17380#0" />
                 <element signature="e#0#17380#0" />
@@ -44,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/george/kernels.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="241" column="20" selection-start-line="241" selection-start-column="20" selection-end-line="241" selection-end-column="20" />
+            <state relative-caret-position="-1980">
+              <caret line="114" column="25" lean-forward="true" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
               <folding>
                 <element signature="e#5668#6046#0" />
                 <element signature="e#6085#6394#0" />
@@ -65,16 +63,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/george/_kernels.pyx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
+            <state relative-caret-position="-2183">
               <caret line="25" column="30" selection-start-line="25" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/george/kernels.pxd">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
+            <state relative-caret-position="-2303">
               <caret line="190" column="44" selection-start-line="190" selection-start-column="44" selection-end-line="190" selection-end-column="44" />
             </state>
           </provider>
@@ -91,6 +89,7 @@
       <find>Task</find>
       <find>TaskKe</find>
       <find>ConstantKernel</find>
+      <find>Matern52</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,9 +98,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/include/kernels.h" />
         <option value="$PROJECT_DIR$/george/kernels.py" />
         <option value="$PROJECT_DIR$/george/kernels.pxd" />
+        <option value="$PROJECT_DIR$/include/kernels.h" />
       </list>
     </option>
   </component>
@@ -204,33 +203,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/george/_kernels.pyx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="25" column="30" selection-start-line="25" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/kernels.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="176" column="18" selection-start-line="176" selection-start-column="4" selection-end-line="176" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#17380#0" />
-            <element signature="e#0#17380#0" />
-            <element signature="e#0#17380#0" />
-            <element signature="e#0#17380#0" />
-            <element signature="e#0#17380#0" />
-            <element signature="e#0#17380#0" />
-            <element signature="e#0#17380#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/george/kernels.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="241" column="20" selection-start-line="241" selection-start-column="20" selection-end-line="241" selection-end-column="20" />
+        <state relative-caret-position="-1980">
+          <caret line="114" column="25" lean-forward="true" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
           <folding>
             <element signature="e#5668#6046#0" />
             <element signature="e#6085#6394#0" />
@@ -246,10 +222,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/george/_kernels.pyx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2183">
+          <caret line="25" column="30" selection-start-line="25" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/george/kernels.pxd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
+        <state relative-caret-position="-2303">
           <caret line="190" column="44" selection-start-line="190" selection-start-column="44" selection-end-line="190" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/kernels.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="458" column="39" selection-start-line="458" selection-start-column="39" selection-end-line="458" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#17380#0" />
+            <element signature="e#0#17380#0" />
+            <element signature="e#0#17380#0" />
+            <element signature="e#0#17380#0" />
+            <element signature="e#0#17380#0" />
+            <element signature="e#0#17380#0" />
+            <element signature="e#0#17380#0" />
+          </folding>
         </state>
       </provider>
     </entry>
